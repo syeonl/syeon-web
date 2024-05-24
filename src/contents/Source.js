@@ -146,6 +146,6 @@ export const footerText = [
     {
         title: "github",
         desc: "지금 보고 계신 리액트 포폴의 코드를 정리해서 올려놓았어요!",
-        link: "/",
+        link: "https://github.com/syeonl/syeon-web.git",
     },
 ];
