@@ -1,0 +1,128 @@
+.site_inner {
+    padding: 4.8rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site_title {
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 1.6;
+    font-family: var(--mainEng-font);
+    border-bottom: 0.4vw solid var(--mainFont-color);
+    color: var(--mainFont-color);
+    margin-bottom: 2rem;
+    position: sticky;
+    left: 0;
+    top: 70px;
+}
+
+.site_title em {
+    font-family: var(--mainEng2-font);
+    font-size: 1.13rem;
+    font-weight: 400;
+    display: block;
+    color: #a5a5a5;
+    display: inline-block;
+}
+
+.site_wrap {
+    width: 100%;
+}
+
+.site_item {
+    padding: 70px;
+    margin-bottom: 2vw;
+    border-radius: 20px;
+    position: sticky;
+    left: 0;
+}
+
+.site_item.s1 {
+    background-color: #DBD0C0;
+    top: 180px;
+}
+
+.site_item.s2 {
+    background-color: #FAEEE0;
+    top: 200px;
+}
+
+.site_item.s3 {
+    background-color: #F9E4C8;
+    top: 220px;
+}
+
+.site_item.s4 {
+    background-color: #F9CF93;
+    top: 240px;
+}
+
+.site_item .num {
+    text-align: left;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-family: var(--mainEng2-font);
+    color: #a5a5a5;
+    line-height: 0.9;
+    white-space: nowrap;
+}
+
+.site_item .text {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5vw;
+    color: var(--mainBg-color);
+}
+
+.site_item h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--txtFont-color);
+    margin-bottom: 10px;
+}
+
+.site_item .btn {
+    text-align: center;
+    font-size: 1.25rem;
+    color: var(--black100);
+    font-family: var(--mainEng2-font);
+}
+
+.site_item .btn a {
+    padding: 5px 15px;
+    margin: 0 5px;
+    background-color: #f7f2ec;
+    border: 1px solid var(--black400);
+    border-radius: 5px;
+}
+
+.site_item .info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.site_item .info span {
+    display: block;
+    font-size: 1rem;
+    color: var(--txtFont-color);
+    font-family: var(--mainEng2-font);
+}
+
+
+@media (max-width: 800px) {
+    .site_inner {
+        flex-direction: column;
+    }
+
+    .site_title {
+        width: 100%;
+        margin-bottom: 10vw;
+        height: auto;
+        background-color: var(--mainBg-color);
+        font-size: 40px;
+        line-height: 1.4;
+    }
+}

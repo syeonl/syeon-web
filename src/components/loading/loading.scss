@@ -1,0 +1,43 @@
+.loading {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    .num {
+        font-family: "Gotham-Bold", sans-serif;
+        font-size: max(5rem, 10px);
+        line-height: 110%;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+        color: #fff;
+        position: absolute;
+        right: 1.5rem;
+        bottom: 20px;
+        // opacity: 0;
+        width: 400rem;
+        text-align: right;
+    }
+
+    .progress {
+        width: 100%;
+        height: 10px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        @media all and (max-width: 1024px) {
+            height: 5px;
+        }
+
+        span {
+            height: 100%;
+            width: 0;
+            display: block;
+            background: #fff;
+        }
+    }
+}

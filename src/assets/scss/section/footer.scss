@@ -1,0 +1,133 @@
+#footer {
+    width: 100%;
+}
+
+.footer_inner {
+    width: 100%;
+    // background-color: var(--mainBg-color);
+    padding: 4.3rem 4.3rem 1rem;
+    color: var(--white200);
+}
+
+.footer_info {
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.footer_info .left {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.footer_info .left .tit {
+    width: 100%;
+    border-bottom: 1px solid var(--white200);
+}
+
+.footer_info .left .tit h3 {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-family: var(--mainEng2-font);
+    color: #a5a5a5;
+    line-height: 0.9;
+    white-space: nowrap;
+}
+
+.footer_info .left .txt {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 1rem;
+}
+.footer_info .left .txt p {
+    color: var(--black200);
+    margin: 10px 0;
+}
+.footer_info .left .txt p span {
+    color: var(--black200);
+    border-radius: 4px;
+    background-color: #ddd;
+    padding: 0 8px;
+}
+.footer_info .right {
+    width: 50%;
+}
+
+.footer_info .right h3 {
+    text-align: left;
+    margin-bottom: 16px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-family: var(--mainEng2-font);
+    color: #a5a5a5;
+    line-height: 0.9;
+    white-space: nowrap;
+}
+
+.footer_info .right li {
+    text-align: left;
+    border-top: 1px solid var(--white200);
+    padding: 10px 0;
+    font-size: 1.1rem;
+}
+
+.footer_info .right em {
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.footer_info .right li:hover {
+    cursor: pointer;
+}
+
+.footer_info .right li:hover em {
+    color: var(--black200);
+    opacity: 1;
+}
+
+.footer_info .right a {
+    font-weight: 800;
+    color: var(--subBg500);
+    text-transform: uppercase;
+}
+
+.footer_right {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 14rem;
+}
+
+@media(max-width: 800px) {
+    .footer_inner {
+        padding:15px;
+    }
+    .footer_info {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer_info .left {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .footer_info .right {
+        width: 100%;
+        
+    }
+    .footer_info .right em {
+        opacity: 1;
+        display: block;
+        margin-top: 5px;
+    }
+    .footer_right {
+        margin-top: 30px;
+    }
+}

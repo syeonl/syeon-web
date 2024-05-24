@@ -1,0 +1,43 @@
+#intro {
+    height: 100vh;
+    position: relative;
+}
+
+.intro_inner {
+    width: 100%;
+    height: 100%;
+}
+.tit_wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    strong {
+        font-size: 1.8rem;
+        font-weight: bold;
+        font-family: var(--mainKor-font);
+        letter-spacing: -0.02rem;
+    }
+    .tit {
+        font-size: 9vw;
+        text-transform: uppercase;
+        font-family: var(--mainEng3-font);
+        color: var(--mainFont-color);
+        white-space: nowrap;
+        margin-bottom: 40px;
+    }
+    .txt {
+        font-family: var(--mainEng2-font);
+        font-size: 1.3rem;
+        letter-spacing: -.02rem;
+        text-align: center;
+        color: var(--txtFont-color);
+    }
+}
+
+@media (max-width: 800px) {
+    .tit_wrap strong{
+        font-size: 1rem;
+    }
+
+}
