@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.fba79907.css",
-    "main.js": "/static/js/main.1fe38362.js",
-    "static/media/about_me.jpg": "/static/media/about_me.c9fd5faca04e2f27a57a.jpg",
-    "static/media/bgVisual.png": "/static/media/bgVisual.105f2d8fad571e164d08.png",
-    "index.html": "/index.html",
-    "main.fba79907.css.map": "/static/css/main.fba79907.css.map",
-    "main.1fe38362.js.map": "/static/js/main.1fe38362.js.map"
+    "main.css": "/syeon-web/static/css/main.5c3ce00a.css",
+    "main.js": "/syeon-web/static/js/main.d4b01432.js",
+    "static/media/about_me.jpg": "/syeon-web/static/media/about_me.c9fd5faca04e2f27a57a.jpg",
+    "static/media/bgVisual.png": "/syeon-web/static/media/bgVisual.105f2d8fad571e164d08.png",
+    "index.html": "/syeon-web/index.html",
+    "main.5c3ce00a.css.map": "/syeon-web/static/css/main.5c3ce00a.css.map",
+    "main.d4b01432.js.map": "/syeon-web/static/js/main.d4b01432.js.map"
   },
   "entrypoints": [
-    "static/css/main.fba79907.css",
-    "static/js/main.1fe38362.js"
+    "static/css/main.5c3ce00a.css",
+    "static/js/main.d4b01432.js"
   ]
 }
