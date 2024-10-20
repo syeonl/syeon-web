@@ -30,7 +30,7 @@ const AboutMe = () => {
                             <h3 className="name" data-aos="fade-up" data-aos-offset="500" data-aos-duration="500">
                                 안녕하세요!<br/>
                                 브랜드의 가치가 주목 받을 수 있게 웹사이트를 만들어 나가는<br/>
-                                3년차 웹퍼블리셔 이승연입니다.
+                                이승연입니다.
                             </h3>
                             <p className='info' data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
                                 웹퍼블리싱을 빠삭하게 다루고 있어요. <br/>
