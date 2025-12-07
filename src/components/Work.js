@@ -32,10 +32,11 @@ const Work = () => {
                         style={{ scaleY: scrollYProgress }}
                     />
                     {workText.map((text, index) => (
-                        <div key={index}>
+                        <div key={index} className='work_item'>
                             <span>{text.date}</span>
                             <h3>{text.title}</h3>
                             <p>{text.desc}</p>
+                            {text.img && <img src={text.img} alt={text.title} className="work_logo" />}
                         </div>
                     ))}
                 </div>
